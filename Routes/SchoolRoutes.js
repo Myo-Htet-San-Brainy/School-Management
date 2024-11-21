@@ -4,3 +4,5 @@ const router = express.Router();
 
 router.get("/", getSchools);
 router.post("/", addSchool);
+
+module.exports = router;

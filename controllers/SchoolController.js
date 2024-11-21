@@ -3,7 +3,7 @@ const getSchools = (req, res) => {
 };
 
 const addSchool = (req, res) => {
-  res.send("schools");
+  res.send("school added");
 };
 
 module.exports = {
